@@ -6,7 +6,7 @@ function Footer() {
       <div className="lg:grid lg:grid-cols-3">
         <div className="hidden items-center justify-center bg-white text-black lg:flex">
           <img
-            src="../../public/images/joshua-tree-facts-logo.jpg"
+            src="./images/joshua-tree-facts-logo.jpg"
             alt="website logo"
             className="w-1/3"
           />

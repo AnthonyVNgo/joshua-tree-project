@@ -10,10 +10,7 @@ const Header = () => {
           loop
           className="h-screen w-full object-cover"
         >
-          <source
-            type="video/mp4"
-            src="../../public/pexels-ibrahim-bennett-6358093.mp4"
-          />
+          <source type="video/mp4" src="./pexels-ibrahim-bennett-6358093.mp4" />
         </video>
         <div className="absolute bottom-0 flex h-screen w-full items-center justify-center bg-black text-white opacity-30"></div>
         <div className="absolute bottom-0 w-full gap-5 space-y-4 p-9 text-white lg:flex lg:justify-between lg:p-36">

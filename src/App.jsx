@@ -9,11 +9,11 @@ function App() {
 
       <section
         id="details"
-        className="flex items-center justify-center bg-[url('../public/images/sand-wavy-smooth-ripples.jpg')] bg-cover bg-fixed bg-no-repeat px-8 py-20 lg:grid lg:h-screen lg:grid-cols-2 xl:p-24"
+        className="flex items-center justify-center bg-[url('/images/sand-wavy-smooth-ripples.jpg')] bg-cover bg-fixed bg-no-repeat px-8 py-20 lg:grid lg:h-screen lg:grid-cols-2 xl:p-24"
       >
         <div className="-mr-52 hidden items-center justify-center lg:flex">
           <img
-            src="../public/images/joshua-tree-motion-blur.jpg"
+            src="./images/joshua-tree-motion-blur.jpg"
             alt="joshua trees caught in frame while motion blurred"
           />
         </div>
@@ -49,7 +49,7 @@ function App() {
 
       <section className="p-0">
         <img
-          src="../public/images/single-joshua-tree-starry-sky-backdrop.jpg"
+          src="./images/single-joshua-tree-starry-sky-backdrop.jpg"
           alt="a single joshua tree with a starry sky backdrop"
           className="h-half w-full object-cover lg:h-[75vh] xl:h-screen"
         />
@@ -97,12 +97,12 @@ function App() {
         <div className="relative hidden h-full items-center justify-center bg-black xl:flex">
           <img
             className="absolute -right-12 -bottom-12 z-0 h-full w-full object-cover"
-            src="../public/images/fine-sand-tiny-dune-closeup.jpg"
+            src="./images/fine-sand-tiny-dune-closeup.jpg"
             alt=""
           />
           <img
             className="absolute z-10 h-full w-full object-cover"
-            src="../public/images/jeep-driving-desert-roads-dusk.jpg"
+            src="./images/jeep-driving-desert-roads-dusk.jpg"
             alt="a lone jeep passing between desert terrain at dusk"
           />
         </div>
