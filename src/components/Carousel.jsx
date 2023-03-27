@@ -7,19 +7,19 @@ const Carousel = () => {
       title: "hiking",
       description:
         "Joshua Tree offers a variety of hiking trails for all skill levels, from short nature walks to challenging backcountry treks.",
-      imageUrl: "../public/images/joshua-tree-rocky-terrain-mountain-dusk.jpg",
+      imageUrl: "./images/joshua-tree-rocky-terrain-mountain-dusk.jpg",
     },
     {
       title: "camping",
       description:
         "The park offers several campgrounds for both tent and RV camping, allowing visitors to experience the beauty of Joshua Tree for multiple days.",
-      imageUrl: "../public/images/lit-tent-camping-evening-desert-plants.jpg",
+      imageUrl: "./images/lit-tent-camping-evening-desert-plants.jpg",
     },
     {
       title: "stargazing",
       description:
         "Joshua Tree is known for its clear night skies, making it a popular destination for stargazers and astrophotographers.",
-      imageUrl: "../public/images/starry-sky-rock-formations-illuminated.jpg",
+      imageUrl: "./images/starry-sky-rock-formations-illuminated.jpg",
     },
   ];
   const lastIndex = activityData.length - 1;
