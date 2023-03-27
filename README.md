@@ -1,12 +1,20 @@
 # Joshua Tree Facts
 
-A quick TailwindCSS refresher project inspired by [makenagolfandbeachclub](https://makenagolfandbeachclub.com/)
+A quick TailwindCSS refresher project inspired by [makenagolfandbeachclub.com](https://makenagolfandbeachclub.com/)
 <br><br>
 
 ## Why I Built This
 
-I built this site because I wanted to brush up on my Tailwind skills and do minor tinkering with the config file. I also wanted to try out Vite with React.
+I built this site mainly to brush up on Tailwind and learn the basics of its config file
 <br><br>
+
+## Goals
+
+- Practice Tailwind
+- Explore Tailwind config file
+- Use Vite for a React project
+- Incorporate accessibility best practices (semantic HTML, image naming convention, alt text)
+  <br><br>
 
 ## Technologies Used
 
@@ -14,6 +22,18 @@ I built this site because I wanted to brush up on my Tailwind skills and do mino
 - TailwindCSS
 - Vite
   <br><br>
+
+## Stretch Goals
+
+- Add smooth scrolling
+- Add animations (text and carousel)
+- Optimize images and loading
+  <br><br>
+
+## Demo
+
+[Check out the live demo](https://anthonyvngo.github.io/joshua-tree-project/)
+<br><br>
 
 ## Preview
 
