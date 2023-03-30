@@ -18,48 +18,52 @@ function Footer() {
               <h2>Connect</h2>
               <ul className="space-y-2 lg:text-base">
                 <li>
+                  <span className="mr-2">I:</span>
                   <a href="">
-                    <span className="mr-2">I:</span>
-                    <span className="underline">Instagram</span>
+                    <span className="">Instagram</span>
                   </a>
                 </li>
                 <li>
+                  <span className="mr-2">T:</span>
                   <a href="">
-                    <span className="mr-2">T:</span>
-                    <span className="underline">(555)-555-5555</span>
+                    <span className="">(555)-555-5555</span>
                   </a>
                 </li>
               </ul>
             </div>
             <div className="mt-4 lg:col-span-2 lg:col-start-3">
               <div className="grid grid-cols-2">
-                <ul className="space-y-2 lg:text-base">
-                  <li>
-                    <a href="#about">About</a>
-                  </li>
-                  <li>
-                    <a href="#activities">Activities</a>
-                  </li>
-                  <li>
-                    <a href="#preparation">Preparation</a>
-                  </li>
-                  <li>
-                    <a href="#learn">Learn</a>
-                  </li>
-                </ul>
-                <ul className="space-y-2 text-xs lg:text-base">
-                  <li>
-                    <a href="https://www.nps.gov/jotr/index.htm">nps.gov</a>
-                  </li>
-                  <li>
-                    <a href="https://www.joshuatree.org/">joshuatree.org</a>
-                  </li>
-                  <li>
-                    <a href="https://en.wikipedia.org/wiki/Joshua_Tree,_California">
-                      wikipedia.org
-                    </a>
-                  </li>
-                </ul>
+                <nav aria-label="page-sections">
+                  <ul className="space-y-2 lg:text-base">
+                    <li>
+                      <a href="#about">About</a>
+                    </li>
+                    <li>
+                      <a href="#activities">Activities</a>
+                    </li>
+                    <li>
+                      <a href="#preparation">Preparation</a>
+                    </li>
+                    <li>
+                      <a href="#learn">Learn</a>
+                    </li>
+                  </ul>
+                </nav>
+                <nav aria-label="resources">
+                  <ul className="space-y-2 text-xs lg:text-base">
+                    <li>
+                      <a href="https://www.nps.gov/jotr/index.htm">nps.gov</a>
+                    </li>
+                    <li>
+                      <a href="https://www.joshuatree.org/">joshuatree.org</a>
+                    </li>
+                    <li>
+                      <a href="https://en.wikipedia.org/wiki/Joshua_Tree,_California">
+                        wikipedia.org
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
           </div>

@@ -18,14 +18,11 @@ const Header = () => {
             <h1 className="text-4xl font-extralight lg:text-6xl lg:font-light lg:leading-[1.1]">
               Discover <br /> Joshua Tree
             </h1>
-            <p className="mt-4 font-light tracking-wider">
+            <p className="mt-4 tracking-wider">
               Learn more about this surreal desert landscape
             </p>
           </div>
-          <a
-            href="#details"
-            className="flex h-11 w-11 items-center justify-center border border-solid border-white lg:self-end"
-          >
+          <a href="#details" className="skip">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
