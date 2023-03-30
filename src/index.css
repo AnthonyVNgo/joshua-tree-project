@@ -27,10 +27,6 @@
 }
 
 @layer components {
-  .skip {
-    @apply flex h-11 w-11 transform items-center justify-center border border-solid border-white transition duration-200 hover:scale-110 lg:self-end;
-  }
-
   .carousel-btn {
     @apply transform transition duration-200 hover:scale-150;
   }
