@@ -38,7 +38,7 @@ const Carousel = () => {
 
   return (
     <>
-      <div className="text-primary lg:w-fit">
+      <div className="text-primary lg:w-fit" aria-roledescription="carousel">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:items-center">
           <div className="col-span-1 lg:-mr-56">
             <img
@@ -52,9 +52,7 @@ const Carousel = () => {
               <h2 className="text-2xl lg:text-3xl">
                 {activityData[count].title}
               </h2>
-              <p className="text-sm leading-8 lg:text-xl lg:leading-loose">
-                {activityData[count].description}
-              </p>
+              <p>{activityData[count].description}</p>
             </div>
           </div>
         </div>
@@ -62,7 +60,11 @@ const Carousel = () => {
 
       <div className="mt-10 flex items-center">
         <div className="flex items-center space-x-4">
-          <button onClick={handleDecrement}>
+          <button
+            className="carousel-btn"
+            onClick={handleDecrement}
+            aria-label="Previous Slide"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -78,7 +80,11 @@ const Carousel = () => {
               />
             </svg>
           </button>
-          <button onClick={handleIncrement}>
+          <button
+            className="carousel-btn"
+            onClick={handleIncrement}
+            aria-label="Next Slide"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

@@ -9,7 +9,7 @@ function App() {
 
       <section
         id="details"
-        className="flex items-center justify-center bg-[url('/images/sand-wavy-smooth-ripples.jpg')] bg-cover bg-fixed bg-no-repeat px-8 py-20 lg:grid lg:h-screen lg:grid-cols-2 xl:p-24"
+        className="flex items-center justify-center bg-[url('/images/sand-wavy-smooth-ripples.jpg')] bg-cover bg-fixed bg-no-repeat lg:grid lg:h-screen lg:grid-cols-2 xl:p-24"
       >
         <div className="-mr-52 hidden items-center justify-center lg:flex">
           <img
@@ -19,7 +19,7 @@ function App() {
         </div>
         <div className="flex items-center text-primary 2xl:py-32 2xl:px-24">
           <div className="bg-white p-11 lg:p-20">
-            <h2 className="text-sm font-light ">welcome to joshua tree</h2>
+            <h2 className="text-sm font-light">welcome to joshua tree</h2>
             <p className="text-2xl font-extralight lg:text-5xl lg:leading-tight">
               A top destination for outdoor enthusiasts and nature lovers.
             </p>
@@ -29,15 +29,13 @@ function App() {
 
       <section
         id="about"
-        className="xl:items-top px-8 py-20 text-primary lg:grid lg:grid-cols-2 2xl:h-half 2xl:items-center 2xl:px-40 "
+        className="xl:items-top text-primary lg:grid lg:grid-cols-2 2xl:h-half 2xl:items-center 2xl:px-40 "
       >
         <div className="lg:flex lg:h-1/2 lg:align-top">
-          <h2 className="text-2xl font-light lg:mb-0 lg:text-5xl">
-            About the park
-          </h2>
+          <h2 className="font-light lg:mb-0">About the park</h2>
         </div>
         <div className="lg:flex lg:h-1/2 lg:align-top">
-          <p className="text-sm font-light leading-7 lg:text-xl lg:leading-loose">
+          <p>
             Located in Southern California, USA, Joshua Tree is a national park
             known for its rugged rock formations, Joshua trees, desert flora,
             and wildlife. Visitors can enjoy hiking, rock climbing, and
@@ -55,12 +53,9 @@ function App() {
         />
       </section>
 
-      <section className="bg-gray-100 py-20 px-8 font-light text-primary xl:px-40">
+      <section className="bg-gray-100 font-light text-primary xl:px-40">
         <div>
-          <h2
-            id="activities"
-            className="mb-11 text-center text-2xl lg:text-5xl"
-          >
+          <h2 id="activities" className="mb-11 text-center">
             park activities
           </h2>
         </div>
@@ -71,11 +66,11 @@ function App() {
 
       <section
         id="preparation"
-        className="grid items-center gap-16 px-8 py-20 font-light text-primary xl:h-screen xl:grid-cols-2 xl:px-40"
+        className="grid items-center gap-16 font-light text-primary xl:h-screen xl:grid-cols-2 xl:px-40"
       >
-        <div className="">
-          <h2 className="text-2xl lg:text-5xl">preparation</h2>
-          <p className="text-sm leading-8 lg:text-xl lg:leading-loose">
+        <div>
+          <h2>preparation</h2>
+          <p>
             Although the park welcomes visitors, there are some important
             details you need to remember for your trip. Consider the following:
           </p>
@@ -110,11 +105,11 @@ function App() {
 
       <section
         id="learn"
-        className="bg-gray-100 px-8 py-20 font-light text-primary xl:px-40"
+        className="bg-gray-100 font-light text-primary xl:px-40"
       >
         <div>
-          <h2 className="text-2xl lg:text-5xl">learn more</h2>
-          <p className="text-sm lg:text-xl lg:leading-loose">
+          <h2>learn more</h2>
+          <p>
             Click the following links to learn more about the park and to plan
             your visit
           </p>

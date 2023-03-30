@@ -2,13 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-h1,
-h2,
-h3 {
-  text-transform: capitalize;
+@layer base {
+  h1,
+  h2,
+  h3 {
+    @apply capitalize;
+  }
+
+  h2 {
+    @apply mb-4 text-[2rem] lg:text-5xl;
+  }
+
+  a {
+    @apply hover:underline hover:underline-offset-4;
+  }
+
+  p {
+    @apply text-sm font-light leading-8 lg:text-xl lg:leading-loose;
+  }
+
+  section {
+    @apply py-20 px-8;
+  }
 }
 
-h2 {
-  margin-bottom: 1rem;
-  font-size: 2rem;
+@layer components {
+  .skip {
+    @apply flex h-11 w-11 transform items-center justify-center border border-solid border-white transition duration-200 hover:scale-110 lg:self-end;
+  }
+
+  .carousel-btn {
+    @apply transform transition duration-200 hover:scale-150;
+  }
 }
