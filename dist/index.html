@@ -2,11 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Joshua Tree Facts" />
+    <meta
+      property="og:description"
+      content="A informative page for Joshua Tree visitors"
+    />
+    <meta
+      property="og:image"
+      content="https://anthonyvngo.github.io/joshua-tree-project/images/socials-image.jpg"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/joshua-tree-project/assets/apple-touch-icon-0beec139.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABBVJREFUWEfFV39M1GUY/zzf7x0/LoiMHGaZGOWP1In9wEVrwZmrdPzRkoyTVZPGcoFrwnG6hTCt4YFFWVIxj5ZSaDSwVStSsGXZBtV0QltUi9LEH8dGGT/v7vu29z2Ocdxx76vleP647fZ+nuf5fJ/3+fUSFOXBbEeCL8q3BkyzAiyVQMlg7DqhTtTPwHoAOgEy2vRR/dMjjc6/VEyTDLRy3db5hmY4ACMHQKwMP3Y+BGgNmqE5Ww9WdEfSmZJAVn65ZeDS4HZGbBMYzIqOg2EEDzHafU28ZdvHteWD4WyEJbDKZr/dy6gZYIuvyHGIEnWZiD16+P2qnycfhRCw5trvZD60ALjh/3E+bsVNOh5qq6/6YaLdIAL+L8fxq+A84NNtIqRPjMQ4AX7n/1wabL+SsBMRiADDYApBo664eEtaICfGCVhzSnYxsKJIFmbNnIENjz+M5JuScG28BXGWGERHmaHrulAzGMPQ8AguuPuxpdKFi33hK5FAL7c1VBaLCuY/otR0b6cs22t2FGBhyi0KXwnkOV7Bb6fPhccSPJrPtISXqCCQmeNwAcaGSJavT4jHh2+WCghjDANDw/B4fOK/yaTDEhMNXdfE/9O9F/F08S6Bm1q0uqMNzjwSHc5k9MqajNmk4767F6PnzHn8ea4PHq83yDZ3/olrh7iSzu4ebCqvkUVqSPdqN1Lm+mIbDHpPhlY5dzk3Y96cWejq7kGhnACgsfWUaSvZC8byVBzIMDsdeUhbtkA1AnyGuCjTZv8ODHfJjKucv1BggzU9FSd+/BWbX3xbrkL4nqy2EjdjLFGOliOK89didUYa2k/+hC1Ol1SBiPrImmP3MsBfyP9Rip55DGusK3Cs/RTKXt0vtUaA77IILEyZg3uXL8K+piPwGUaIA3t+Nh7JuAeffdmBqtpGRQKKV5B8cxL2bC8U5beu4CWMjHpCHARyoL65FXWNfJ5FFnEFqkn4WtlGLF0wD3UftKD+UGtYy9Wlz2LZoltRUXMAh78OGnrhmfAkVCnDiV2wrHofjnV0hhiMMpvR9NY2WGKj8WRRJc70umUBGCtDhUZ029zZqK14Xhh8p7EF+5tDI5C9+n5szM3CH2cviDasJLwRqbTi2UmJqK92CJv87usOfo6vOk6h/+8BzEiIw8r05Xhq7SqYdB1vvPsRmlq+UfHvb8UcKRtGfN4f2L0VMxP9S/BU8svvZ/Fc6evweP1DKrKMDSMOUhnHD6xYitLCXGha+D2Wh96xcy/Ou/tlnvkSEDyOuYbKQpJ6RwqeyMrAkvlzYYmNESXJp+PRb0/i0BfHMTwyKnculpBJCwnXutyVjI9nr8+QzPxwfKZYyTh0WpfSANdpXcsDJKb1YRIgMa1Ps4mpM22P08n5e7We5/8CruvXaBrjBKYAAAAASUVORK5CYII="
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAdpJREFUOE+tk0toE1EUhr+TTFJLY40tbsRFXdiFiK8KYqmPRsFHoYtCJaMLEWwsiBUpBjcqLlpfoAiCIXblpsVCwY0SKN1E6kKCGxUsiCKCK5eax0znyEyaNhmHguLd3XvP+e7/n3Ou4FtHkld3OSEnhZIAOpauvyDMhZxQdnbq9tv6FKltBgcvN/8wIg8VPQcsn/v4KshEu21dmp5+UHTvvMBqspFT2O9XFLQXyLfb9lEX4gESZjqr6FAtOBoxOLh3O23xtTRFI4gIP3+VeD77GsuyvTBBnsxN3k2J63lRFgv1ss3+XoaSxylXLFShKWpQsWwGhm9SLFVq72hYw12SOJV+rKrD9VLXr4tRKlsUS2Xv+GTfAQaO9ZC8ON7gSEQykjDTHxXtXM17774dpMwTmCO3GgHIggsoKxpdDdC9eyvnT/dxZvSeH1AJBLgFXBONkMu7pYGePdsw+w9x4fqjQECDhYgRZiZzg9GxLAufv3kJrv8tHRu5k3kWYMFXxHhriweYmHrJTO4VG9rijF85S3byBfk37/4sYlAbM2MjdG7etBw8X3jPtftPUbenK6vaxqBBirU0c7h7J/HWGJ++fme+8AHHcfzyq4P0X0Z5BfKPn6le299+59/xg87VU3aSLAAAAABJRU5ErkJggg=="
+    />
+    <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiIiwic2hvcnRfbmFtZSI6IiIsImljb25zIjpbeyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLCJzaXplcyI6IjE5MngxOTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn0seyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtNTEyeDUxMi5wbmciLCJzaXplcyI6IjUxMng1MTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn1dLCJ0aGVtZV9jb2xvciI6IiNmZmZmZmYiLCJiYWNrZ3JvdW5kX2NvbG9yIjoiI2ZmZmZmZiIsImRpc3BsYXkiOiJzdGFuZGFsb25lIn0=" />
+    <link
+      rel="shortcut icon"
+      href="/joshua-tree-project/assets/favicon-4bbbba0b.ico"
+      type="image/x-icon"
+    />
     <title>Joshua Tree Facts</title>
-    <script type="module" crossorigin src="/joshua-tree-project/assets/index-e80db997.js"></script>
-    <link rel="stylesheet" href="/joshua-tree-project/assets/index-010dc019.css">
+    <script type="module" crossorigin src="/joshua-tree-project/assets/index-1155aaaa.js"></script>
+    <link rel="stylesheet" href="/joshua-tree-project/assets/index-ca56c33c.css">
   </head>
   <body>
     <div id="root"></div>
